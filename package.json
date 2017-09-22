@@ -1,0 +1,24 @@
+{
+  "name": "Classy",
+  "version": "1.0.0",
+  "description": "Integrate Classy's API",
+  "repository": "savory/classy",
+  "homepage": "http://savory.global/",
+  "author": "Jordan Ambra <jordan@serenitysoftware.io>",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive"
+  },
+  "engines": {
+    "node": ">=4.3.0",
+    "npm": ">=2.0.0"
+  },
+  "dependencies": {
+    "zapier-platform-core": "1.0.10"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "should": "11.2.1"
+  }
+}
