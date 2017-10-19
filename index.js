@@ -1,5 +1,6 @@
 const Authenticator = require('./authentication/authenticator');
 const TransactionTrigger = require('./triggers/transaction');
+const FundraiserTrigger = require('./triggers/fundraiser');
 
 // We can roll up all our behaviors in an App.
 const App = {
@@ -20,6 +21,7 @@ const App = {
 
   triggers: {
     [TransactionTrigger.key]: TransactionTrigger,
+    [FundraiserTrigger.key]: FundraiserTrigger,
   }
 };
 
