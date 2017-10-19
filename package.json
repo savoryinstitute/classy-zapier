@@ -1,8 +1,8 @@
 {
   "name": "Classy",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Integrate Classy's API",
-  "repository": "savory/classy",
+  "repository": "github.com/savoryinstitute/classy-zapier",
   "homepage": "http://savory.global/",
   "author": "Jordan Ambra <jordan@serenitysoftware.io>",
   "license": "BSD-3-Clause",
@@ -15,10 +15,10 @@
     "npm": ">=2.0.0"
   },
   "dependencies": {
-    "zapier-platform-core": "1.0.10"
+    "zapier-platform-core": "3.2.1"
   },
   "devDependencies": {
-    "mocha": "3.2.0",
-    "should": "11.2.1"
+    "mocha": "4.0.1",
+    "should": "13.1.2"
   }
 }
