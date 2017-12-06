@@ -319,7 +319,7 @@ supports-color@4.4.0:
   dependencies:
     has-flag "^2.0.0"
 
-sync-request@^4.1.0:
+sync-request@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/sync-request/-/sync-request-4.1.0.tgz#324b4e506fb994d2afd2a0021a455f800725f07a"
   dependencies:

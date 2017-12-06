@@ -8,10 +8,10 @@ const authenticate = (z, bundle) => {
             client_secret: bundle.authData.client_secret
         }
     }).then(function(res) {
-        console.log('received the response');
+        z.console.log('received the response');
         const data = JSON.parse(res.content);
-        console.log(data);
-        console.log('ACCESS TOKEN ' + data.access_token);
+        z.console.log(data);
+        z.console.log('ACCESS TOKEN ' + data.access_token);
         return {
             token: data.access_token
         }
@@ -32,7 +32,7 @@ const authorize = (request, z, bundle) => {
 };
 
 const refresh = (response, z, bundle) => {
-    z.console.log('REFRESH IT CHECK');
+    z.console.log('REFRESH CHECK');
     if (bundle.authData.token && response.status === 401) {
         throw new z.errors.RefreshAuthError();
     }

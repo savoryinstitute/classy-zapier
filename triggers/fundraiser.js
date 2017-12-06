@@ -29,7 +29,6 @@ const triggerFundraiser = (z, bundle) => {
             }
           });
           var metrics = JSON.parse(res.getBody()).metrics;
-          z.console.log(metrics);
 
           frs[x].metrics = metrics;
         }

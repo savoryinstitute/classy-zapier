@@ -1,6 +1,6 @@
 {
   "name": "Classy",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Integrate Classy's API",
   "repository": "github.com/savoryinstitute/classy-zapier",
   "homepage": "http://savory.global/",
@@ -15,7 +15,7 @@
     "npm": ">=2.0.0"
   },
   "dependencies": {
-    "sync-request": "^4.1.0",
+    "sync-request": "4.1.0",
     "zapier-platform-core": "3.2.1"
   },
   "devDependencies": {
