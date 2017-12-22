@@ -34,15 +34,16 @@ const triggerFundraiserPage = (z, bundle) => {
         owner_email: fundraiserPage.member.email_address,
         owner_first_name: fundraiserPage.member.first_name,
         owner_last_name: fundraiserPage.member.last_name,
-        id: fundraiserPage.id,
+        id: fundraiserPage.id + "|" + fundraiserPage.updated_at,
+        page_id: fundraiserPage.id,
         url: fundraiserPage.canonical_url,
         goal: fundraiserPage.goal,
         raised_gross: fundraiserOverview.gross_amount,
         raised_net: fundraiserOverview.net_amount,
         raised_fees: fundraiserOverview.fees_amount,
-        donor_count: fundraiserOverview.donor_count
+        donor_count: fundraiserOverview.donors_count
       };
-
+1
       pages.push(page);
     }
   }

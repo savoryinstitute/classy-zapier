@@ -352,9 +352,9 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-zapier-platform-core@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/zapier-platform-core/-/zapier-platform-core-3.2.1.tgz#c9d576ab0db162bfab326eca9f462c14040b9b20"
+zapier-platform-core@4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/zapier-platform-core/-/zapier-platform-core-4.2.3.tgz#29f94b2dbbd2a8d4657b89f72095b742b742c6ef"
   dependencies:
     bluebird "3.5.0"
     content-disposition "0.5.2"
@@ -362,11 +362,11 @@ zapier-platform-core@3.2.1:
     form-data "2.2.0"
     lodash "4.17.4"
     node-fetch "1.7.1"
-    zapier-platform-schema "3.2.1"
+    zapier-platform-schema "4.2.3"
 
-zapier-platform-schema@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/zapier-platform-schema/-/zapier-platform-schema-3.2.1.tgz#35b32fab13a671c2a57b8d11f4e18c3dcf049887"
+zapier-platform-schema@4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/zapier-platform-schema/-/zapier-platform-schema-4.2.3.tgz#2fe34c35934762b9ac6eee085579beabf512cdf4"
   dependencies:
     jsonschema "1.1.1"
     lodash "4.17.4"

@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "sync-request": "4.1.0",
-    "zapier-platform-core": "3.2.1"
+    "zapier-platform-core": "4.2.3"
   },
   "devDependencies": {
     "mocha": "4.0.1",
