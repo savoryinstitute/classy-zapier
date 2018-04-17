@@ -4,7 +4,18 @@ const triggerTransaction = (z, bundle) => {
     url: 'https://api.classy.org/2.0/organizations/{{bundle.inputData.organization_id}}/transactions?per_page=100&sort=created_at:desc'
   });
   return responsePromise
-    .then(response => JSON.parse(response.content).data);
+    .then(response => {
+      raw_results = JSON.parse(response.content).data;
+      results = [];
+
+      for (var i = 0; i < raw_results.length; i++) {
+        if (raw_results[i].frequency === 'one-time') {
+          results.push(raw_results[i]);
+        }
+      }
+
+      return results;
+    });
 };
 
 module.exports = {
